@@ -1,5 +1,5 @@
 {
-  "name": "contacts-api",
+  "name": "bookmarks-api",
   "version": "1.0.0",
   "description": "Démo d'un petit service API",
   "main": "server.js",
@@ -8,7 +8,8 @@
     "node":"16.14.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Nicolas Chourot",
   "license": "ISC"
